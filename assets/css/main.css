@@ -1946,8 +1946,9 @@ input, select, textarea {
 				font-size: 4.25em;
 				line-height: 1em;
 				color: #000000;
+				font-style: italic;
+				font-weight: normal;
 				font-family: 'Amiri', serif;
-				font-style: normal;
 			}
 
 			.main.style1 > .content {
