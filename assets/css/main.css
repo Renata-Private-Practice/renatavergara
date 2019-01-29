@@ -1947,6 +1947,7 @@ input, select, textarea {
 				line-height: 1em;
 				color: #000000;
 				font-family: 'Amiri', serif;
+				font-style: italic;
 			}
 
 			.main.style1 > .content {
