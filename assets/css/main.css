@@ -1947,7 +1947,7 @@ input, select, textarea {
 				line-height: 1em;
 				color: #000000;
 				font-style: italic;
-				font-weight: normal;
+				font-weight: 400;
 				font-family: 'Amiri', serif;
 			}
 
@@ -2109,6 +2109,9 @@ input, select, textarea {
 
 				.main.style1 h2 {
 					font-size: 3em;
+					font-style: italic;
+					font-weight: 400;
+					font-family: 'Amiri', serif;
 				}
 
 			.main.style2 {
