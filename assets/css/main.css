@@ -81,6 +81,7 @@ input, select, textarea {
 	}
 
 	html {
+		scroll-behavior: smooth;
 		height: 100%;
 	}
 
@@ -1140,11 +1141,29 @@ input, select, textarea {
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
+																ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5rem;
 						}
 
 		}
+
+@media (max-width: 736px) {
+	.is-touch .poptrox-popup .nav-next,
+	.is-touch .poptrox-popup .nav-previous,
+	.is-touch .poptrox-popup .closer {
+		opacity: 1.0 !important;
+	}
+
+	.gallery.poptrox-popup {
+		margin: 5px !important;
+	}
+}
+
+@media (min-width: 737px) {
+	.gallery.poptrox-popup {
+		margin: 50px !important;
+	}
+}
 
 /* Icons */
 
